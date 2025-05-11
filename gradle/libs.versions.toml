@@ -1,0 +1,27 @@
+[versions]
+agp = "8.9.1"
+ble = "2.10.0"
+kotlin = "2.0.21"
+coreKtx = "1.16.0"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.10.1"
+fragment = "1.8.6"
+constraintlayout = "2.2.1"
+lifecycle = "2.8.7"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+ble = { module = "no.nordicsemi.android:ble", version.ref = "ble" }
+ble-ktx = { module = "no.nordicsemi.android:ble-ktx", version.ref = "ble" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity-ktx = {group = "androidx.activity", name = "activity-ktx", version.ref = "activity"}
+androidx-fragment-ktx = {group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragment"}
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-lifecycle-viewmodel-ktx = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle"}
+androidx-lifecycle-livedata-ktx = {group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle"}
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

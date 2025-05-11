@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">dma-labo-4</string>
+
+    <string name="ble_menu_scan_start">Recherche</string>
+    <string name="ble_menu_scan_stop">Annuler</string>
+    <string name="ble_menu_disconnect">Déconnexion</string>
+
+    <string name="ble_scan_results_empty">Veuillez lancer le scan <i>Bluetooth Low Energy</i> en appuyant ci-dessus</string>
+
+    <string name="ble_currenttime_title">Current time</string>
+    <string name="ble_currenttime_set">Set time</string>
+    <string name="ble_clickcounter_title">Click counter</string>
+    <string name="ble_temperature_title">Température</string>
+    <string name="ble_temperature_read">Read</string>
+    <string name="ble_sendvalue_title">Envoi de valeur</string>
+    <string name="ble_sendvalue_send">Send</string>
+
+</resources>
